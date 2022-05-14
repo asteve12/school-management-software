@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuardianRelationshipPill should render correctly 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-0 {
+    font-size: 20px;
+  }
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--theme-ui-colors-border);
+  border-radius: 99999px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 14px;
+  color: var(--theme-ui-colors-text);
+  text-rendering: optimizeLegibility;
+  color: var(--theme-ui-colors-onSurface);
+  display: block;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      <span
+        class="emotion-2"
+      >
+        Other
+      </span>
+    </div>
+  </div>
+</div>
+`;

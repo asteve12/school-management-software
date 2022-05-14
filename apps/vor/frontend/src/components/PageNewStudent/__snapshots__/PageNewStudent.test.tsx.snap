@@ -1,0 +1,1610 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageNewStudent should render correctly 1`] = `
+@keyframes animation-0 {
+  0% {
+    opacity: 0.05;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 0.05;
+  }
+}
+
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-0 {
+    font-size: 20px;
+  }
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: var(--theme-ui-colors-surfaceBlurNonTransparent);
+  z-index: 100;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--theme-ui-colors-border);
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 640px;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 48px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-4 {
+  margin: 8px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: var(--theme-ui-colors-primary);
+  border: 0;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: var(--theme-ui-colors-textPrimary);
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  -webkit-transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  touch-action: manipulation;
+  box-shadow: none;
+  border-color: var(--theme-ui-colors-border);
+  border-style: solid;
+  border-width: 1px;
+  line-height: 1;
+  border: none;
+  padding: 4px;
+}
+
+.emotion-5:disabled {
+  opacity: 0.38;
+  cursor: auto;
+}
+
+.emotion-5:hover,
+.emotion-5:focus {
+  background-color: var(--theme-ui-colors-primaryLighter);
+  border-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  fill: var(--theme-ui-colors-icon);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  fill: var(--theme-ui-colors-textMediumEmphasis);
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.emotion-8 {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+  white-space: nowrap;
+}
+
+.emotion-8:last-child {
+  color: var(--theme-ui-colors-textPrimary);
+}
+
+.emotion-8:last-child>.splitter {
+  display: none;
+}
+
+.emotion-9:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-10 {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.emotion-14 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: var(--theme-ui-colors-primary);
+  border: 0;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: var(--theme-ui-colors-onPrimary);
+  background-color: var(--theme-ui-colors-primary);
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  -webkit-transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  touch-action: manipulation;
+  box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px 0px,rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
+  border-color: var(--theme-ui-colors-border);
+  border-style: solid;
+  border-width: 1px;
+  line-height: 1;
+  margin-left: auto;
+  margin-right: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.emotion-14:disabled {
+  opacity: 0.38;
+  cursor: auto;
+}
+
+.emotion-14:hover,
+.emotion-14:focus {
+  background-color: var(--theme-ui-colors-primaryDark);
+}
+
+.emotion-14:hover:disabled,
+.emotion-14:focus:disabled {
+  background-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-15 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin: auto;
+  padding-bottom: 32px;
+  padding-top: 16px;
+  max-width: 640px;
+}
+
+.emotion-16 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.emotion-17 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.emotion-18 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  font-weight: bold;
+  line-height: heading;
+  color: var(--theme-ui-colors-text);
+  text-rendering: optimizeLegibility;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.emotion-19 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-left: auto;
+  margin-bottom: 8px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.emotion-20 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emotion-21 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: var(--theme-ui-colors-surface);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px,rgba(0, 0, 0, 0.27) 0px 2px 4px -2px;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.emotion-22 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-23 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 4px;
+  fill: var(--theme-ui-colors-icon);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.emotion-24 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text);
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+  font-size: 13px;
+}
+
+.emotion-25 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 4px;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  width: auto;
+  border-color: var(--theme-ui-colors-border);
+  background-color: var(--theme-ui-colors-surface);
+  font-size: 16px;
+  padding: 12px;
+  color: var(--theme-ui-colors-text);
+  --theme-ui-input-autofill-bg: var(--theme-ui-colors-background);
+  display: none;
+}
+
+.emotion-25:autofill,
+.emotion-25:autofill:hover,
+.emotion-25:autofill:focus {
+  box-shadow: inset 0 0 0 1000px var(--theme-ui-input-autofill-bg);
+  font-size: inherit;
+}
+
+.emotion-25:autofill:first-line,
+.emotion-25:autofill:hover:first-line,
+.emotion-25:autofill:focus:first-line {
+  font-size: 1rem;
+}
+
+.emotion-25:-webkit-autofill,
+.emotion-25:-webkit-autofill:hover,
+.emotion-25:-webkit-autofill:focus {
+  box-shadow: inset 0 0 0 1000px var(--theme-ui-input-autofill-bg);
+  font-size: inherit;
+}
+
+.emotion-25:-webkit-autofill:first-line,
+.emotion-25:-webkit-autofill:hover:first-line,
+.emotion-25:-webkit-autofill:focus:first-line {
+  font-size: 1rem;
+}
+
+.emotion-25:hover,
+.emotion-25:focus {
+  border-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-25::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.emotion-25::-moz-placeholder {
+  font-style: italic;
+}
+
+.emotion-25:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.emotion-25::placeholder {
+  font-style: italic;
+}
+
+.emotion-25:disabled {
+  opacity: 0.68;
+  border-color: var(--theme-ui-colors-border);
+  color: var(--theme-ui-colors-textDisabled);
+}
+
+.emotion-26 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-27 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding-bottom: 4px;
+}
+
+.emotion-28 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-29 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 4px;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  width: auto;
+  border-color: var(--theme-ui-colors-border);
+  background-color: var(--theme-ui-colors-surface);
+  font-size: 16px;
+  padding: 12px;
+  color: var(--theme-ui-colors-text);
+  margin-bottom: 16px;
+  --theme-ui-input-autofill-bg: var(--theme-ui-colors-background);
+  width: 100%;
+  width: 100%;
+}
+
+.emotion-29:autofill,
+.emotion-29:autofill:hover,
+.emotion-29:autofill:focus {
+  box-shadow: inset 0 0 0 1000px var(--theme-ui-input-autofill-bg);
+  font-size: inherit;
+}
+
+.emotion-29:autofill:first-line,
+.emotion-29:autofill:hover:first-line,
+.emotion-29:autofill:focus:first-line {
+  font-size: 1rem;
+}
+
+.emotion-29:-webkit-autofill,
+.emotion-29:-webkit-autofill:hover,
+.emotion-29:-webkit-autofill:focus {
+  box-shadow: inset 0 0 0 1000px var(--theme-ui-input-autofill-bg);
+  font-size: inherit;
+}
+
+.emotion-29:-webkit-autofill:first-line,
+.emotion-29:-webkit-autofill:hover:first-line,
+.emotion-29:-webkit-autofill:focus:first-line {
+  font-size: 1rem;
+}
+
+.emotion-29:hover,
+.emotion-29:focus {
+  border-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-29::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.emotion-29::-moz-placeholder {
+  font-style: italic;
+}
+
+.emotion-29:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.emotion-29::placeholder {
+  font-style: italic;
+}
+
+.emotion-29:disabled {
+  opacity: 0.68;
+  border-color: var(--theme-ui-colors-border);
+  color: var(--theme-ui-colors-textDisabled);
+}
+
+.emotion-30 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-34 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 4px;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  width: auto;
+  border-color: var(--theme-ui-colors-border);
+  background-color: var(--theme-ui-colors-surface);
+  font-size: 16px;
+  padding: 12px;
+  color: var(--theme-ui-colors-text);
+  --theme-ui-input-autofill-bg: var(--theme-ui-colors-background);
+  width: 100%;
+  opacity: 1!important;
+  width: 100%;
+}
+
+.emotion-34:autofill,
+.emotion-34:autofill:hover,
+.emotion-34:autofill:focus {
+  box-shadow: inset 0 0 0 1000px var(--theme-ui-input-autofill-bg);
+  font-size: inherit;
+}
+
+.emotion-34:autofill:first-line,
+.emotion-34:autofill:hover:first-line,
+.emotion-34:autofill:focus:first-line {
+  font-size: 1rem;
+}
+
+.emotion-34:-webkit-autofill,
+.emotion-34:-webkit-autofill:hover,
+.emotion-34:-webkit-autofill:focus {
+  box-shadow: inset 0 0 0 1000px var(--theme-ui-input-autofill-bg);
+  font-size: inherit;
+}
+
+.emotion-34:-webkit-autofill:first-line,
+.emotion-34:-webkit-autofill:hover:first-line,
+.emotion-34:-webkit-autofill:focus:first-line {
+  font-size: 1rem;
+}
+
+.emotion-34:hover,
+.emotion-34:focus {
+  border-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-34::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.emotion-34::-moz-placeholder {
+  font-style: italic;
+}
+
+.emotion-34:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.emotion-34::placeholder {
+  font-style: italic;
+}
+
+.emotion-34:disabled {
+  opacity: 0.68;
+  border-color: var(--theme-ui-colors-border);
+  color: var(--theme-ui-colors-textDisabled);
+}
+
+.emotion-35 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: var(--theme-ui-colors-primary);
+  border: 0;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: var(--theme-ui-colors-textPrimary);
+  background-color: var(--theme-ui-colors-surface);
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  -webkit-transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  touch-action: manipulation;
+  box-shadow: none;
+  border-color: var(--theme-ui-colors-border);
+  border-style: solid;
+  border-width: 1px;
+  line-height: 1;
+  margin-top: 23px;
+  margin-left: 8px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.emotion-35:disabled {
+  opacity: 0.38;
+  cursor: auto;
+}
+
+.emotion-35:hover,
+.emotion-35:focus {
+  background-color: var(--theme-ui-colors-primaryLighter);
+  border-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-35:hover:disabled,
+.emotion-35:focus:disabled {
+  background-color: transparent;
+  border-color: var(--theme-ui-colors-border);
+}
+
+.emotion-36 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  fill: var(--theme-ui-colors-icon);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.emotion-44 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-46 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-47 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 4px;
+  color: inherit;
+  background-color: var(--theme-ui-colors-background);
+  border-radius: 6px;
+  color: var(--theme-ui-colors-text);
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  border-color: var(--theme-ui-colors-border);
+  background-color: var(--theme-ui-colors-surface);
+  font-size: 16px;
+  padding: 12px;
+}
+
+.emotion-47:hover,
+.emotion-47:focus {
+  border-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-48 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-left: -28px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  pointer-events: none;
+}
+
+.emotion-53 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-55 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 4px;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  border-color: var(--theme-ui-colors-border);
+  background-color: var(--theme-ui-colors-surface);
+  font-size: 16px;
+  padding: 16px;
+  height: 180px;
+  resize: vertical;
+  color: var(--theme-ui-colors-text);
+  height: 100px;
+}
+
+.emotion-55:hover,
+.emotion-55:focus {
+  border-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-55::-webkit-input-placeholder {
+  font-style: italic;
+  line-height: 2rem;
+}
+
+.emotion-55::-moz-placeholder {
+  font-style: italic;
+  line-height: 2rem;
+}
+
+.emotion-55:-ms-input-placeholder {
+  font-style: italic;
+  line-height: 2rem;
+}
+
+.emotion-55::placeholder {
+  font-style: italic;
+  line-height: 2rem;
+}
+
+.emotion-56 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: var(--theme-ui-colors-surface);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px,rgba(0, 0, 0, 0.27) 0px 2px 4px -2px;
+  margin-top: 32px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 0;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-56 {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-56 {
+    border-radius: 6px;
+  }
+}
+
+.emotion-57 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  font-weight: bold;
+  line-height: heading;
+  color: var(--theme-ui-colors-text);
+  text-rendering: optimizeLegibility;
+  font-size: 20px;
+  padding: 16px;
+}
+
+.emotion-58 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-59 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-right: 16px;
+  border-radius: 6px;
+  -webkit-animation: 4s infinite animation-0;
+  animation: 4s infinite animation-0;
+  background-color: #a5a5a5;
+  width: 42px;
+  height: 2rem;
+}
+
+.emotion-60 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: var(--theme-ui-colors-surface);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px,rgba(0, 0, 0, 0.27) 0px 2px 4px -2px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 32px;
+  border-radius: 0;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-60 {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-60 {
+    border-radius: 6px;
+  }
+}
+
+.emotion-61 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-62 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  font-weight: bold;
+  line-height: heading;
+  color: var(--theme-ui-colors-text);
+  text-rendering: optimizeLegibility;
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.emotion-63 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: var(--theme-ui-colors-primary);
+  border: 0;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: var(--theme-ui-colors-textPrimary);
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  -webkit-transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  touch-action: manipulation;
+  box-shadow: none;
+  border-color: var(--theme-ui-colors-border);
+  border-style: solid;
+  border-width: 1px;
+  line-height: 1;
+  border: none;
+}
+
+.emotion-63:disabled {
+  opacity: 0.38;
+  cursor: auto;
+}
+
+.emotion-63:hover,
+.emotion-63:focus {
+  background-color: var(--theme-ui-colors-primaryLighter);
+  border-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-64 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text);
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  padding: 16px;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+}
+
+.emotion-65 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: var(--theme-ui-colors-primary);
+  border: 0;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: var(--theme-ui-colors-textPrimary);
+  background-color: var(--theme-ui-colors-surface);
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  -webkit-transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  touch-action: manipulation;
+  box-shadow: none;
+  border-color: var(--theme-ui-colors-border);
+  border-style: solid;
+  border-width: 1px;
+  line-height: 1;
+  margin-right: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  color: var(--theme-ui-colors-danger);
+}
+
+.emotion-65:disabled {
+  opacity: 0.38;
+  cursor: auto;
+}
+
+.emotion-65:hover,
+.emotion-65:focus {
+  background-color: var(--theme-ui-colors-primaryLighter);
+  border-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-65:hover:disabled,
+.emotion-65:focus:disabled {
+  background-color: transparent;
+  border-color: var(--theme-ui-colors-border);
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      <div
+        class="emotion-2"
+      >
+        <div
+          class="emotion-3"
+        >
+          <a
+            class="emotion-4"
+            data-cy="back-button"
+            href="/dashboard/students"
+          >
+            <button
+              class="emotion-5"
+            >
+              <div
+                class="emotion-6"
+              />
+            </button>
+          </a>
+          <div
+            class="emotion-7"
+          >
+            <a
+              class="emotion-8"
+              href="/dashboard/students"
+            >
+              <span
+                class="emotion-9"
+              >
+                Students
+              </span>
+              <span
+                class="splitter emotion-10"
+              >
+                /
+              </span>
+            </a>
+            <a
+              class="emotion-8"
+              href="/dashboard/students/new"
+            >
+              <span
+                class="emotion-9"
+              >
+                New Student
+              </span>
+              <span
+                class="splitter emotion-10"
+              >
+                /
+              </span>
+            </a>
+          </div>
+        </div>
+        <button
+          class="emotion-14"
+          data-cy="finish-cta"
+          disabled=""
+        >
+          Save
+        </button>
+      </div>
+    </div>
+    <div
+      class="emotion-15"
+    >
+      <div
+        class="emotion-16"
+      >
+        <div
+          class="emotion-17"
+        >
+          <h5
+            class="emotion-18"
+          >
+            New Student
+          </h5>
+          <div
+            class="emotion-19"
+          >
+            <label
+              class="emotion-20"
+            >
+              <div
+                class="emotion-21"
+              >
+                <div
+                  class="emotion-22"
+                >
+                  <div
+                    class="emotion-23"
+                    height="24"
+                    width="24"
+                  />
+                  <p
+                    class="emotion-24"
+                  >
+                    Add Picture
+                  </p>
+                </div>
+              </div>
+              <input
+                accept="image/*"
+                class="emotion-25"
+                data-cy="upload-profile-pic"
+                type="file"
+              />
+            </label>
+          </div>
+        </div>
+        <label
+          class="emotion-26"
+        >
+          <div
+            class="emotion-27"
+          >
+            Name (Required)
+          </div>
+          <div
+            class="emotion-28"
+          >
+            <input
+              class="emotion-29"
+              value=""
+            />
+          </div>
+        </label>
+        <div
+          class="emotion-30"
+        >
+          <label
+            class="emotion-26"
+          >
+            <div
+              class="emotion-27"
+            >
+              Date of Birth
+            </div>
+            <div
+              class="emotion-28"
+            >
+              <input
+                class="emotion-34"
+                disabled=""
+                placeholder="Not Set"
+                value=""
+              />
+            </div>
+          </label>
+          <button
+            class="emotion-35"
+            data-cy="Date of Birth"
+          >
+            <div
+              class="emotion-36"
+            />
+          </button>
+        </div>
+        <div
+          class="emotion-30"
+        >
+          <label
+            class="emotion-26"
+          >
+            <div
+              class="emotion-27"
+            >
+              Date of Entry
+            </div>
+            <div
+              class="emotion-28"
+            >
+              <input
+                class="emotion-34"
+                disabled=""
+                placeholder="Not Set"
+                value=""
+              />
+            </div>
+          </label>
+          <button
+            class="emotion-35"
+            data-cy="Date of Entry"
+          >
+            <div
+              class="emotion-36"
+            />
+          </button>
+        </div>
+        <label
+          class="emotion-44"
+        >
+          <div
+            class="emotion-27"
+          >
+            Gender
+          </div>
+          <div
+            class="emotion-46"
+          >
+            <select
+              aria-label="Gender"
+              class="emotion-47"
+            >
+              <option
+                value="0"
+              >
+                Not Set
+              </option>
+              <option
+                value="1"
+              >
+                Male
+              </option>
+              <option
+                value="2"
+              >
+                Female
+              </option>
+            </select>
+            <svg
+              class="emotion-48"
+              fill="currentcolor"
+              height="24"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+          </div>
+        </label>
+        <label
+          class="emotion-26"
+        >
+          <div
+            class="emotion-27"
+          >
+            Student ID
+          </div>
+          <div
+            class="emotion-28"
+          >
+            <input
+              class="emotion-29"
+              value=""
+            />
+          </div>
+        </label>
+        <label
+          class="emotion-53"
+        >
+          <div
+            class="emotion-27"
+          >
+            Notes
+          </div>
+          <textarea
+            aria-label="Notes"
+            class="emotion-55"
+          />
+        </label>
+      </div>
+      <div
+        class="emotion-56"
+      >
+        <h6
+          class="emotion-57"
+        >
+          Classes
+        </h6>
+        <div
+          class="emotion-58"
+        >
+          <div
+            class="emotion-59"
+          />
+        </div>
+      </div>
+      <div
+        class="emotion-60"
+      >
+        <div
+          class="emotion-61"
+        >
+          <h6
+            class="emotion-62"
+          >
+            Guardians
+          </h6>
+          <a
+            data-cy="add-guardian"
+            href="/dashboard/students/new/add-guardian"
+          >
+            <button
+              class="emotion-63"
+            >
+              Add
+            </button>
+          </a>
+        </div>
+        <p
+          class="emotion-64"
+        >
+          This student doesn't have a guardian yet.
+        </p>
+      </div>
+      <button
+        class="emotion-65"
+      >
+        Reset Form
+      </button>
+    </div>
+  </div>
+</div>
+`;

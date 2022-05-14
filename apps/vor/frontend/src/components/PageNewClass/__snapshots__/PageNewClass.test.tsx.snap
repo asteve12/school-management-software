@@ -1,0 +1,648 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageNewClass should render correctly 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-0 {
+    font-size: 20px;
+  }
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin: auto;
+  max-width: 640px;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-left: -8px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  margin: 16px;
+  margin-right: 4px;
+  fill: var(--theme-ui-colors-icon);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  fill: var(--theme-ui-colors-textMediumEmphasis);
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text);
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  margin-bottom: 0;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  font-weight: bold;
+  line-height: heading;
+  color: var(--theme-ui-colors-text);
+  text-rendering: optimizeLegibility;
+  font-size: 24px;
+  margin: 16px;
+}
+
+.emotion-6 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin: 16px;
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding-bottom: 4px;
+}
+
+.emotion-9 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-10 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 4px;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  width: auto;
+  border-color: var(--theme-ui-colors-border);
+  background-color: var(--theme-ui-colors-surface);
+  font-size: 16px;
+  padding: 12px;
+  color: var(--theme-ui-colors-text);
+  margin-bottom: 16px;
+  --theme-ui-input-autofill-bg: var(--theme-ui-colors-background);
+  width: 100%;
+  width: 100%;
+}
+
+.emotion-10:autofill,
+.emotion-10:autofill:hover,
+.emotion-10:autofill:focus {
+  box-shadow: inset 0 0 0 1000px var(--theme-ui-input-autofill-bg);
+  font-size: inherit;
+}
+
+.emotion-10:autofill:first-line,
+.emotion-10:autofill:hover:first-line,
+.emotion-10:autofill:focus:first-line {
+  font-size: 1rem;
+}
+
+.emotion-10:-webkit-autofill,
+.emotion-10:-webkit-autofill:hover,
+.emotion-10:-webkit-autofill:focus {
+  box-shadow: inset 0 0 0 1000px var(--theme-ui-input-autofill-bg);
+  font-size: inherit;
+}
+
+.emotion-10:-webkit-autofill:first-line,
+.emotion-10:-webkit-autofill:hover:first-line,
+.emotion-10:-webkit-autofill:focus:first-line {
+  font-size: 1rem;
+}
+
+.emotion-10:hover,
+.emotion-10:focus {
+  border-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-10::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.emotion-10::-moz-placeholder {
+  font-style: italic;
+}
+
+.emotion-10:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.emotion-10::placeholder {
+  font-style: italic;
+}
+
+.emotion-10:disabled {
+  opacity: 0.68;
+  border-color: var(--theme-ui-colors-border);
+  color: var(--theme-ui-colors-textDisabled);
+}
+
+.emotion-11 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-15 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid;
+  border-radius: 4px;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  width: auto;
+  border-color: var(--theme-ui-colors-border);
+  background-color: var(--theme-ui-colors-surface);
+  font-size: 16px;
+  padding: 12px;
+  color: var(--theme-ui-colors-text);
+  margin-bottom: 16px;
+  margin-right: 16px;
+  --theme-ui-input-autofill-bg: var(--theme-ui-colors-background);
+  width: 100%;
+  width: 100%;
+}
+
+.emotion-15:autofill,
+.emotion-15:autofill:hover,
+.emotion-15:autofill:focus {
+  box-shadow: inset 0 0 0 1000px var(--theme-ui-input-autofill-bg);
+  font-size: inherit;
+}
+
+.emotion-15:autofill:first-line,
+.emotion-15:autofill:hover:first-line,
+.emotion-15:autofill:focus:first-line {
+  font-size: 1rem;
+}
+
+.emotion-15:-webkit-autofill,
+.emotion-15:-webkit-autofill:hover,
+.emotion-15:-webkit-autofill:focus {
+  box-shadow: inset 0 0 0 1000px var(--theme-ui-input-autofill-bg);
+  font-size: inherit;
+}
+
+.emotion-15:-webkit-autofill:first-line,
+.emotion-15:-webkit-autofill:hover:first-line,
+.emotion-15:-webkit-autofill:focus:first-line {
+  font-size: 1rem;
+}
+
+.emotion-15:hover,
+.emotion-15:focus {
+  border-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-15::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.emotion-15::-moz-placeholder {
+  font-style: italic;
+}
+
+.emotion-15:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.emotion-15::placeholder {
+  font-style: italic;
+}
+
+.emotion-15:disabled {
+  opacity: 0.68;
+  border-color: var(--theme-ui-colors-border);
+  color: var(--theme-ui-colors-textDisabled);
+}
+
+.emotion-20 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text);
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+}
+
+.emotion-21 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.emotion-22 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  background-color: var(--theme-ui-colors-surface);
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  border-radius: 6px;
+  border-color: var(--theme-ui-colors-border);
+  border-width: 1px;
+  border-style: solid;
+  white-space: nowrap;
+}
+
+.emotion-22:hover {
+  background-color: var(--theme-ui-colors-primaryLightest);
+}
+
+.emotion-23 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text);
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  color: var(--theme-ui-colors-text);
+  font-size: 14px;
+}
+
+.emotion-36 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: var(--theme-ui-colors-primary);
+  border: 0;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: var(--theme-ui-colors-onPrimary);
+  background-color: var(--theme-ui-colors-primary);
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  -webkit-transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  touch-action: manipulation;
+  box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px 0px,rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
+  border-color: var(--theme-ui-colors-border);
+  border-style: solid;
+  border-width: 1px;
+  line-height: 1;
+  width: 100%;
+}
+
+.emotion-36:disabled {
+  opacity: 0.38;
+  cursor: auto;
+}
+
+.emotion-36:hover,
+.emotion-36:focus {
+  background-color: var(--theme-ui-colors-primaryDark);
+}
+
+.emotion-36:hover:disabled,
+.emotion-36:focus:disabled {
+  background-color: var(--theme-ui-colors-primary);
+}
+
+.emotion-37 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  color: var(--theme-ui-colors-text);
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  margin: 16px;
+  color: var(--theme-ui-colors-error);
+  text-align: center;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      <a
+        href="/dashboard/admin/class"
+        style="display: block;"
+      >
+        <div
+          class="emotion-2"
+        >
+          <div
+            class="emotion-3"
+          />
+          <p
+            class="emotion-4"
+          >
+            Class
+          </p>
+        </div>
+      </a>
+      <h5
+        class="emotion-5"
+      >
+        New Class
+      </h5>
+      <div
+        class="emotion-6"
+      >
+        <label
+          class="emotion-7"
+        >
+          <div
+            class="emotion-8"
+          >
+            Name
+          </div>
+          <div
+            class="emotion-9"
+          >
+            <input
+              class="emotion-10"
+              value=""
+            />
+          </div>
+        </label>
+        <div
+          class="emotion-11"
+        >
+          <label
+            class="emotion-7"
+          >
+            <div
+              class="emotion-8"
+            >
+              Start Time
+            </div>
+            <div
+              class="emotion-9"
+            >
+              <input
+                class="emotion-15"
+                type="time"
+                value="09:00"
+              />
+            </div>
+          </label>
+          <label
+            class="emotion-7"
+          >
+            <div
+              class="emotion-8"
+            >
+              End Time
+            </div>
+            <div
+              class="emotion-9"
+            >
+              <input
+                class="emotion-10"
+                type="time"
+                value="10:00"
+              />
+            </div>
+          </label>
+        </div>
+        <p
+          class="emotion-20"
+        >
+          Available every
+        </p>
+        <div
+          class="emotion-21"
+        >
+          <div
+            class="emotion-22"
+          >
+            <p
+              class="emotion-23"
+            >
+              Sunday
+            </p>
+          </div>
+          <div
+            class="emotion-22"
+          >
+            <p
+              class="emotion-23"
+            >
+              Monday
+            </p>
+          </div>
+          <div
+            class="emotion-22"
+          >
+            <p
+              class="emotion-23"
+            >
+              Tuesday
+            </p>
+          </div>
+          <div
+            class="emotion-22"
+          >
+            <p
+              class="emotion-23"
+            >
+              Wednesday
+            </p>
+          </div>
+          <div
+            class="emotion-22"
+          >
+            <p
+              class="emotion-23"
+            >
+              Thursday
+            </p>
+          </div>
+          <div
+            class="emotion-22"
+          >
+            <p
+              class="emotion-23"
+            >
+              Friday
+            </p>
+          </div>
+          <div
+            class="emotion-22"
+          >
+            <p
+              class="emotion-23"
+            >
+              Saturday
+            </p>
+          </div>
+        </div>
+        <button
+          class="emotion-36"
+          disabled=""
+        >
+          Save
+        </button>
+        <p
+          class="emotion-37"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

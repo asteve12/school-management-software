@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TranslucentBar should render correctly 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-0 {
+    font-size: 20px;
+  }
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: var(--theme-ui-colors-surfaceBlurNonTransparent);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin: 16px;
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: red;
+  height: 300px;
+  width: 100px;
+}
+
+.emotion-9 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: yellow;
+  height: 300px;
+  width: 100px;
+}
+
+.emotion-10 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: green;
+  height: 300px;
+  width: 100px;
+}
+
+.emotion-11 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: blue;
+  height: 300px;
+  width: 100px;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <div
+      class="emotion-1"
+    >
+      <div
+        class="emotion-2"
+      >
+        <div
+          class="emotion-3"
+        >
+          <div
+            class="emotion-4"
+          >
+            One
+          </div>
+          <div
+            class="emotion-4"
+          >
+            Two
+          </div>
+          <div
+            class="emotion-4"
+          >
+            Three
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-7"
+      >
+        <div
+          class="emotion-8"
+        />
+        <div
+          class="emotion-9"
+        />
+        <div
+          class="emotion-10"
+        />
+        <div
+          class="emotion-11"
+        />
+      </div>
+      <div
+        class="emotion-7"
+      >
+        <div
+          class="emotion-11"
+        />
+        <div
+          class="emotion-8"
+        />
+        <div
+          class="emotion-10"
+        />
+        <div
+          class="emotion-9"
+        />
+      </div>
+      <div
+        class="emotion-7"
+      >
+        <div
+          class="emotion-8"
+        />
+        <div
+          class="emotion-9"
+        />
+        <div
+          class="emotion-11"
+        />
+        <div
+          class="emotion-10"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

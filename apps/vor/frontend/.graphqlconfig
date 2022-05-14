@@ -1,0 +1,16 @@
+{
+  "name": "Vor Gatsby Graphql Schema",
+  "schemaPath": "src/__generated__/gatsby-schema.graphql",
+  "includes": ["./**/*.ts","./**/*.tsx", "./**/*.js", "./.cache/**/*.js"],
+  "extensions": {
+    "endpoints": {
+      "Default GraphQL Endpoint": {
+        "url": "http://localhost:8001/___graphql",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}

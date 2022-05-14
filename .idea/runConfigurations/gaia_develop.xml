@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="gaia develop" type="js.build_tools.npm">
+    <package-json value="$PROJECT_DIR$/apps/gaia/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="dev" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs>
+      <env name="NEXT_OPTIMIZED_IMG_DOMAIN" value="athena" />
+      <env name="NODE_OPTIONS" value="--no-warnings" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>

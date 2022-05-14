@@ -1,0 +1,87 @@
+## Docker Compose for development
+version: "3"
+services:
+  vor_app:
+    image: chrsep/go-devtools:1.15.0
+    container_name: vor_app
+    working_dir: /src/vor
+    environment:
+      # go-devtools docker specific env
+      SRC_ENTRYPOINT: /src/vor/pkg/*.go
+    volumes:
+      - ./apps/vor:/src/vor
+    ports:
+      - "40000:40000"
+      - "8080:8080"
+    security_opt:
+      - "apparmor=unconfined"
+    cap_add:
+      - "SYS_PTRACE"
+    env_file:
+      - .env
+      - .env.local
+
+  nginx:
+    build:
+      context: .
+      dockerfile: docker/nginx/dev.dockerfile
+    depends_on:
+      - vor_app
+    ports:
+      - "8000:443"
+    volumes:
+      - ./docker/nginx/ssl:/ssl
+
+  minio:
+    image: minio/minio:latest
+    container_name: vor-minio
+    entrypoint: sh
+    command: -c 'mkdir -p /data/media && /usr/bin/minio server /data'
+    environment:
+      MINIO_HTTP_TRACE: "/dev/stdout"
+    ports:
+      - 9000:9000
+    volumes:
+      - vor-minio:/data
+    env_file:
+      - .env
+      - .env.local
+
+  imgproxy:
+    image: darthsim/imgproxy:latest
+    depends_on:
+      - minio
+    environment:
+      IMGPROXY_USE_S3: "true"
+      IMGPROXY_ENABLE_WEBP_DETECTION: "true"
+      IMGPROXY_TTL: "1209600"
+      IMGPROXY_MAX_SRC_RESOLUTION: 26
+    env_file:
+      - .env
+      - .env.local
+
+  imgproxy-nginx:
+    build:
+      context: .
+      dockerfile: docker/imgproxy-nginx/prod.dockerfile
+    depends_on:
+      - imgproxy
+    ports:
+      - 10000:443
+      - 10001:80
+
+  db:
+    image: obserfy/postgres-dev:latest
+    container_name: vor-postgres
+    environment:
+      POSTGRES_MULTIPLE_DATABASES: defaultdb,defaultdb_test
+      POSTGRES_PASSWORD: postgres
+    command: ["postgres", "-c", "log_statement=all"]
+    ports:
+      - "5432:5432"
+    volumes:
+      - vor:/var/lib/postgresql/data
+
+volumes:
+  vor:
+  vor-minio:

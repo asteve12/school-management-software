@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+
+body {
+  @apply bg-background text-sm;
+}
+
+.loading-placeholder {
+  @apply bg-gray-300;
+}
+
+@tailwind utilities;

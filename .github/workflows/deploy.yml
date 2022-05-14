@@ -1,0 +1,77 @@
+name: Deploy Docker Images
+
+#on: [ push ]
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  deploy-vor:
+    runs-on: ubuntu-latest
+
+    env:
+      DOCKER_BUILDKIT: 1
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get the version
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF#refs/tags/}
+      - name: Build docker image
+        run: docker build -f ./docker/vor/prod.dockerfile  -t "obserfy/vor:${{ steps.get_version.outputs.VERSION  }}" .
+      - name: Docker login
+        run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_LOGIN"  --password-stdin
+        env:
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          DOCKER_LOGIN: ${{ secrets.DOCKER_LOGIN }}
+      - name: Push image
+        run: docker push obserfy/vor:${{ steps.get_version.outputs.VERSION  }}
+      - name: Sentry Release
+        run: |
+          yarn dlx @sentry/cli releases -p vor-frontend new ${{ steps.get_version.outputs.VERSION  }}
+          yarn dlx @sentry/cli releases -p vor-frontend set-commits --auto ${{ steps.get_version.outputs.VERSION  }}
+          yarn dlx @sentry/cli releases -p vor-frontend finalize ${{ steps.get_version.outputs.VERSION  }}
+
+          yarn dlx @sentry/cli releases -p vor-backend new ${{ steps.get_version.outputs.VERSION  }}
+          yarn dlx @sentry/cli releases -p vor-backend set-commits --auto ${{ steps.get_version.outputs.VERSION  }}
+          yarn dlx @sentry/cli releases -p vor-backend finalize ${{ steps.get_version.outputs.VERSION  }}
+
+
+  deploy-gaia:
+    runs-on: ubuntu-latest
+
+    env:
+      DOCKER_BUILDKIT: 1
+      NEXT_PUBLIC_GAIA_SEGMENT_KEY: ${{ secrets.NEXT_PUBLIC_GAIA_SEGMENT_KEY }}
+      DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+      DOCKER_LOGIN: ${{ secrets.DOCKER_LOGIN }}
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Get the version
+        id: get_version
+        run: echo ::set-output name=VERSION::${GITHUB_REF#refs/tags/}
+      - name: Setup secrets
+        run: |
+          touch sentrysecret
+          echo SENTRY_ORG=obserfy >> sentrysecret
+          echo SENTRY_AUTH_TOKEN=$SENTRY_AUTH_TOKEN >> sentrysecret
+          echo SENTRY_PROJECT=gaia >> sentrysecret
+          echo NEXT_PUBLIC_SENTRY_DSN=https://cb901298e868441898d8717f07a20188@o330610.ingest.sentry.io/5447244 >> sentrysecret
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+      - name: Build docker image
+        run: docker build --secret id=sentrysecret,src=sentrysecret -f ./docker/gaia/prod.dockerfile  -t "obserfy/gaia:${{ steps.get_version.outputs.VERSION  }}"  .
+      - name: Docker login
+        run: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_LOGIN"  --password-stdin
+        env:
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+          DOCKER_LOGIN: ${{ secrets.DOCKER_LOGIN }}
+      - name: Push image
+        run: docker push obserfy/gaia:${{ steps.get_version.outputs.VERSION  }}
+      - name: Sentry Release
+        run: |
+          yarn dlx @sentry/cli releases -p gaia new ${{ steps.get_version.outputs.VERSION  }}
+          yarn dlx @sentry/cli releases -p gaia set-commits --auto ${{ steps.get_version.outputs.VERSION  }}
+          yarn dlx @sentry/cli releases -p gaia finalize ${{ steps.get_version.outputs.VERSION  }}

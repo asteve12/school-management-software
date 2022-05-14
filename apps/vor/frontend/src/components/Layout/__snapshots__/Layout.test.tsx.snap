@@ -1,0 +1,416 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout should render correctly 1`] = `
+.emotion-0 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-0 {
+    font-size: 20px;
+  }
+}
+
+.emotion-1 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  background-color: var(--theme-ui-colors-surfaceBlurNonTransparent);
+  z-index: 500;
+  height: auto;
+  width: 100%;
+  display: block;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-width: 1px;
+  border-color: var(--theme-ui-colors-border);
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-1 {
+    height: 100%;
+    width: auto;
+    display: block;
+    top: 0;
+    bottom: auto;
+    border-top-style: none;
+    border-right-style: solid;
+  }
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  justify-content: space-evenly;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: auto;
+  margin-right: 0;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-2 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    margin-right: -1px;
+  }
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  display: none;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-3 {
+    display: block;
+  }
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 56px;
+  height: 56px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  position: relative;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-4 {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.emotion-4:after {
+  top: -0.5px;
+  right: inherit;
+  position: absolute;
+  background-color: var(--theme-ui-colors-textPrimary);
+  border-radius: 0 0 10px 10px;
+  width: 0%;
+  height: 2px;
+  content: '';
+  -webkit-transition: width 100ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  transition: width 100ms cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-4:after {
+    top: inherit;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+    width: 2px;
+    height: 0%;
+  }
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  fill: transparent;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-top: auto;
+  display: none;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-8 {
+    display: block;
+  }
+}
+
+.emotion-11 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: inherit;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+  background-color: var(--theme-ui-colors-primary);
+  border: 0;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: var(--theme-ui-colors-textPrimary);
+  background-color: transparent;
+  border-radius: 6px;
+  font-family: Open Sans,-apple-system,BlinkMacSystemFont,San Francisco,Roboto,Segoe UI,Helvetica Neue,sans-serif;
+  -webkit-transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  transition: background-color 125ms cubic-bezier(0.0, 0.0, 0.2, 1);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  touch-action: manipulation;
+  box-shadow: none;
+  border-color: var(--theme-ui-colors-border);
+  border-style: solid;
+  border-width: 1px;
+  line-height: 1;
+  border: none;
+  padding: 0;
+  border-bottom: 0;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 56px;
+  height: 56px;
+  border-radius: 99999px;
+}
+
+.emotion-11:disabled {
+  opacity: 0.38;
+  cursor: auto;
+}
+
+.emotion-11:hover,
+.emotion-11:focus {
+  background-color: var(--theme-ui-colors-primaryLighter);
+  border-color: var(--theme-ui-colors-primary);
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-11 {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.emotion-12 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  color: var(--theme-ui-colors-textMediumEmphasis);
+  fill: transparent;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+}
+
+.emotion-13 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  padding-left: 0;
+  padding-bottom: 32px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-13 {
+    padding-left: 48px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 52em) {
+  .emotion-13 {
+    padding-bottom: 0;
+  }
+}
+
+.emotion-14 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+  margin-bottom: env(safe-area-inset-bottom);
+  padding-bottom: 80px;
+  background-color: var(--theme-ui-colors-background);
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 40em) {
+  .emotion-14 {
+    padding-bottom: 0;
+  }
+}
+
+.emotion-15 {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 0;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <nav
+      class="emotion-1"
+    >
+      <div
+        class="emotion-2"
+      >
+        <div
+          class="emotion-3"
+        />
+        <a
+          data-cy="navbar-students"
+          href="/dashboard/students"
+        >
+          <div
+            class="emotion-4"
+          >
+            <div
+              alt="Students"
+              class="emotion-5"
+            />
+          </div>
+        </a>
+        <a
+          data-cy="navbar-progress report"
+          href="/dashboard/reports"
+        >
+          <div
+            class="emotion-4"
+          >
+            <div
+              alt="Progress Report"
+              class="emotion-5"
+            />
+          </div>
+        </a>
+        <div
+          class="emotion-8"
+        />
+        <a
+          data-cy="navbar-admin"
+          href="/dashboard/admin"
+        >
+          <div
+            class="emotion-4"
+          >
+            <div
+              alt="Admin"
+              class="emotion-5"
+            />
+          </div>
+        </a>
+        <button
+          class="emotion-11"
+        >
+          <div
+            class="emotion-12"
+          />
+        </button>
+      </div>
+    </nav>
+    <div
+      class="emotion-13"
+    >
+      <div />
+      <main
+        class="emotion-14"
+      >
+        <div
+          class="emotion-15"
+        />
+      </main>
+    </div>
+  </div>
+</div>
+`;

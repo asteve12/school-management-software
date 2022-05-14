@@ -1,0 +1,23 @@
+{
+  "extends": ["config:base"],
+  "automerge": true,
+  "dependencyDashboard": true,
+  "stabilityDays": 3,
+  "automergeType": "branch",
+  "packageRules": [
+    {
+      "packagePatterns": ["eslint"],
+      "groupName": "eslint",
+      "extends": ["schedule:monthly"]
+    },
+    {
+      "packagePatterns": ["theme-ui"],
+      "groupName": "theme-ui"
+    },
+    {
+      "packagePatterns": ["@storybook"],
+      "groupName": "storybook",
+      "extends": ["schedule:monthly"]
+    }
+  ]
+}
